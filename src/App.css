@@ -1,7 +1,24 @@
 .App {
   text-align: center;
 }
+body{
+  padding-top: 5rem;
 
+}
+.actions {
+  opacity: 0;
+}
+
+tr:hover .actions {
+  opacity: 1;
+}
+
+tbody td a {
+  color: #222;
+  &:hover {
+    color: #222;
+  }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
